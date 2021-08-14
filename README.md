@@ -1,2 +1,2 @@
 # Flower
-Building a responsive site
+Building a responsive site.
