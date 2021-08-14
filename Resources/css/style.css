@@ -1,0 +1,73 @@
+@font-face {
+    font-family: dave;
+    src: url("../../Vendor/fontawesome/fonts/lato-thin-webfont.woff")format("woff"),
+    url("../../Vendor/fontawesome/fonts/lato-thin-webfont.woff2")format("woff2"),
+    url("../../Vendor/fontawesome/fonts/Lato-Regular.ttf")format("truetype");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    
+    .parent{
+    background: url(../images/bg-newsletter.svg);
+    width: 100%;
+    height: 550px;    
+    background-size: cover;
+    list-style: none;
+    border-bottom: 1px solid silver;
+    }
+    .sub1{
+    width: 420px;
+    padding: 40px;
+    margin-top: 70px;
+    margin-left: 270px;
+    height: 250px;
+    display: inline-block;
+    vertical-align: middle;
+    
+    }
+    
+    .sub2{
+    width: 400px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 100px;
+    margin-left: 70px;
+    
+    }
+    
+    button{
+    border-radius: 20px;
+    border: none;
+    background: red;
+    color: white;
+    width: 135px;
+    height: 35px;
+    
+    }
+    
+    h5{
+    display: inline-block;
+    width: 100%;
+    margin: 1px 0;
+    }
+
+    h3{
+    font-family: dave;
+    }
+    
+    
+    
+    input{
+        height: 35px;
+        vertical-align: middle;
+    
+    }
+    .note{
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    }
+    
